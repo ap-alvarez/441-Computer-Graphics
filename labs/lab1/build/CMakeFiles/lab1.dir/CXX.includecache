@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Tiny Rick/Documents/441 Computer Graphics/labs/lab1/bitmap_image.hpp
+algorithm
+-
+cmath
+-
+cstdlib
+-
+cstring
+-
+fstream
+-
+iostream
+-
+iterator
+-
+limits
+-
+string
+-
+vector
+-
+
+C:/Users/Tiny Rick/Documents/441 Computer Graphics/labs/lab1/main.cpp
+iostream
+-
+string
+-
+cmath
+-
+bitmap_image.hpp
+C:/Users/Tiny Rick/Documents/441 Computer Graphics/labs/lab1/bitmap_image.hpp
+
