@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\lab3\Source.cpp(96,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\lab3\Source.cpp(99,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\lab3\Source.cpp(102,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\lab3\Source.cpp(107,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\lab3\Source.cpp(108,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  LINK : C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\x64\Debug\lab3.exe not found or not built by the last incremental link; performing full link
+  lab3.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab3\x64\Debug\lab3.exe

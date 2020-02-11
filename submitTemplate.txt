@@ -1,0 +1,4 @@
+name: Alexander Alvarez
+collab: None
+url: https://github.com/ap-alvarez/441-Computer-Graphics
+hash: 40c867d0ed066978cc76dba55aeef1cd19b3fe7d
