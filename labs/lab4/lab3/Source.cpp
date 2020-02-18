@@ -15,7 +15,7 @@
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
 
-float C=-20.0,Tx=0.0, Ty=0.0, Tz=0.0, S=1.0, Rx=0.0, Ry=0.0, Rz=.0;
+float H=0,Tx=0.0, Ty=0.0, Tz=0.0, S=1.0, Rx=0.0, Ry=0.0, Rz=.0;
 bool ortho=true, changeO=false, changeB=false, isBox=true;
 
 
@@ -23,7 +23,7 @@ void framebufferSizeCallback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
 }
 
-void processInput(GLFWwindow* window, Shader& shader) {
+void processinput(GLFWwindow* window, Shader& shader) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
     }
@@ -41,11 +41,11 @@ void processInput(GLFWwindow* window, Shader& shader) {
 
     // CAMERA INPUT
 
-    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && C > -20.0f) {
-        C -= 0.5;
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && H > -20.0f) {
+        H -= 0.1;
     }
-    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && C < 20.0f) {
-        C += 0.5;
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && H < 20.0f) {
+        H += 0.1;
     }
 
     // PROJECTION TYPE INPUT
@@ -198,88 +198,88 @@ int main(void) {
         phi = theta + (PI / 4.0);
 
         //first triangle (upper left)
-        cylinder[i++] = cos(theta);
-        cylinder[i++] = 1.0f;
-        cylinder[i++] = sin(theta);
-        cylinder[i++] = 1.0f;
-        cylinder[i++] = 0.0f;
-        cylinder[i++] = 0.0f;
-
-        cylinder[i++] = cos(theta);
-        cylinder[i++] = -1.0f;
-        cylinder[i++] = sin(theta);
+        cylinder[i++] = 0.5 * cos(theta);
+        cylinder[i++] = 0.5f;
+        cylinder[i++] = 0.5 * sin(theta);
         cylinder[i++] = 1.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
 
-        cylinder[i++] = cos(phi);
+        cylinder[i++] = 0.5 * cos(theta);
+        cylinder[i++] = -0.5f;
+        cylinder[i++] = 0.5 * sin(theta);
         cylinder[i++] = 1.0f;
-        cylinder[i++] = sin(phi);
+        cylinder[i++] = 0.0f;
+        cylinder[i++] = 0.0f;
+
+        cylinder[i++] = 0.5 * cos(phi);
+        cylinder[i++] = 0.5f;
+        cylinder[i++] = 0.5 * sin(phi);
         cylinder[i++] = 1.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
 
         //second triangle (lower right)
-        cylinder[i++] = cos(theta);
-        cylinder[i++] = -1.0f;
-        cylinder[i++] = sin(theta);
+        cylinder[i++] = 0.5 * cos(theta);
+        cylinder[i++] = -0.5f;
+        cylinder[i++] = 0.5 * sin(theta);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
         cylinder[i++] = 0.0f;
 
-        cylinder[i++] = cos(phi);
-        cylinder[i++] = -1.0f;
-        cylinder[i++] = sin(phi);
+        cylinder[i++] = 0.5 * cos(phi);
+        cylinder[i++] = -0.5f;
+        cylinder[i++] = 0.5 * sin(phi);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
         cylinder[i++] = 0.0f;
 
-        cylinder[i++] = cos(phi);
-        cylinder[i++] = 1.0f;
-        cylinder[i++] = sin(phi);
+        cylinder[i++] = 0.5 * cos(phi);
+        cylinder[i++] = 0.5f;
+        cylinder[i++] = 0.5 * sin(phi);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
         cylinder[i++] = 0.0f;
 
         //top triangle
-        cylinder[i++] = cos(theta);
-        cylinder[i++] = 1.0f;
-        cylinder[i++] = sin(theta);
+        cylinder[i++] = 0.5 * cos(theta);
+        cylinder[i++] = 0.5f;
+        cylinder[i++] = 0.5 * sin(theta);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
 
-        cylinder[i++] = cos(phi);
-        cylinder[i++] = 1.0f;
-        cylinder[i++] = sin(phi);
+        cylinder[i++] = 0.5 * cos(phi);
+        cylinder[i++] = 0.5f;
+        cylinder[i++] = 0.5 * sin(phi);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
 
         cylinder[i++] = 0;
-        cylinder[i++] = 1.0f;
+        cylinder[i++] = 0.5f;
         cylinder[i++] = 0;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
 
         //bottom triangle
-        cylinder[i++] = cos(theta);
-        cylinder[i++] = -1.0f;
-        cylinder[i++] = sin(theta);
+        cylinder[i++] = 0.5 * cos(theta);
+        cylinder[i++] = -0.5f;
+        cylinder[i++] = 0.5 * sin(theta);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
 
-        cylinder[i++] = cos(phi);
-        cylinder[i++] = -1.0f;
-        cylinder[i++] = sin(phi);
+        cylinder[i++] = 0.5 * cos(phi);
+        cylinder[i++] = -0.5f;
+        cylinder[i++] = 0.5 * sin(phi);
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 1.0f;
 
         cylinder[i++] = 0;
-        cylinder[i++] = -1.0f;
+        cylinder[i++] = -0.5f;
         cylinder[i++] = 0;
         cylinder[i++] = 0.0f;
         cylinder[i++] = 0.0f;
@@ -341,7 +341,7 @@ int main(void) {
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window)) {
         // process input
-        processInput(window, shader);
+        processinput(window, shader);
 
         /* Render here */
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -350,8 +350,8 @@ int main(void) {
         // activate shader
         shader.use();
         
-        float n = -1.0;
-        float f = 1.0;
+        float n = -10.0;
+        float f = 10.0;
         float r = 1.0;
         float l = -1.0;
         float t = 1.0;
@@ -359,28 +359,37 @@ int main(void) {
 
         float camera[16]{
             1.0, 0.0, 0.0, 0.0,
-            0.0, 1.0, 0.0, 0.0,
-            0.0, 0.0, 1.0, -C,
+            0.0, 1.0, 0.0, -H,
+            0.0, 0.0, 1.0, 20.0,
             0.0, 0.0, 0.0, 1.0 };
 
+        float g = sqrt((H * H) + 400);
+
+        float cameraRot[16]{
+            1.0, 0.0, 0.0, 0.0,
+            0.0, -20.0/g, -H/g, 0.0,
+            0.0, -H/g, 20.0/g, 0.0,
+            0.0, 0.0, 0.0, 0.0 };
+
+        
         float orth[16]{
             2.0/(r-l), 0.0, 0.0, -((r+l)/(r-l)),
             0.0, 2.0/(t-b), 0.0, -((t+b)/(t-b)),
-            0.0, 0.0, 2.0/(f-n), -((f+n)/(f-n)),
+            0.0, 0.0, 2.0/(n-f), -((n+f)/(n-f)),
             0.0, 0.0, 0.0,       1.0 };
                              
         float pers[16]{
             n, 0.0, 0.0, 0.0,
             0.0, n, 0.0, 0.0,
-            0.0, 0.0, n + f, -(n * f),
-            0.0, 0.0, 1.0, 0.0 };
+            0.0, 0.0, n+f, -(n * f),
+            0.0, 0.0, 2.0, 0.0 };
 
         Matrix4 proj;
         if (ortho) {
             proj = Matrix4(true);
         }
         else {
-            proj = Matrix4(orth).MatMul(Matrix4(pers).MatMul(Matrix4(camera)));
+            proj = Matrix4(orth).MatMul(Matrix4(pers).MatMul(Matrix4(cameraRot).MatMul(Matrix4(camera))));
         }
 
         Matrix4 model = Translate(Tx, Ty, Tz).MatMul(Rotate(Rx, Ry, Rz).MatMul(Scale(S, S, S)));

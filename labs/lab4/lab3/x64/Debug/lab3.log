@@ -1,24 +1,50 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (lab3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Source.cpp
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(64,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(67,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(71,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(74,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(78,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(81,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(87,18): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(90,18): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(96,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(99,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(102,18): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(105,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(108,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(111,19): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(198,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(367,16): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(367,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(368,21): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(368,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(369,26): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\lab3\Source.cpp(369,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  lab3.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab4\x64\Debug\lab4.exe
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(45,17): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(48,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(64,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(67,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(71,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(74,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(78,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(81,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(87,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(90,18): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(96,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(99,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(102,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(105,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(108,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(111,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(198,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(201,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(203,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(208,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(210,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(215,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(217,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(223,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(225,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(230,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(232,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(237,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(239,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(245,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(247,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(252,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(254,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(267,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(269,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(274,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(276,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(370,23): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(370,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(371,28): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(371,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(376,16): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(376,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(377,21): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(377,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(378,26): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\lab3\Source.cpp(378,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  lab3.vcxproj -> C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\labs\lab4\x64\Debug\lab4.exe
