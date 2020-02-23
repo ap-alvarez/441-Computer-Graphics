@@ -13,11 +13,11 @@ void main() {
     float z = (model[8] * aPos.x) + (model[9] * aPos.y) + (model[10] * aPos.z) + model[11];
     float w = (model[12] * aPos.x) + (model[13] * aPos.y) + (model[14] * aPos.z) + model[15];
 
-    x = (perspective[0] * x) + (perspective[1] * y) + (perspective[2] * z) + (perspective[3] * w);
-    y = (perspective[4] * x) + (perspective[5] * y) + (perspective[6] * z) + (perspective[7] * w);
-    z = (perspective[8] * x) + (perspective[9] * y) + (perspective[10] * z) + (perspective[11] * w);
-    w = (perspective[12] * x) + (perspective[13] * y) + (perspective[14] * z) + (perspective[15] * w);
-    z *= -1;
-    gl_Position = vec4(x, y, z, w);
+    float x1 = (perspective[0] * x) + (perspective[1] * y) + (perspective[2] * z) + (perspective[3] * w);
+    float y1 = (perspective[4] * x) + (perspective[5] * y) + (perspective[6] * z) + (perspective[7] * w);
+    float z1 = (perspective[8] * x) + (perspective[9] * y) + (perspective[10] * z) + (perspective[11] * w);
+    float w1 = (perspective[12] * x) + (perspective[13] * y) + (perspective[14] * z) + (perspective[15] * w);
+    
+    gl_Position = vec4(x1, y1, z1, w1);
     myColor = aColor;
 }

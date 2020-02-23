@@ -75,8 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Tiny Rick\Documents\441 Computer Graphics\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Tiny Rick\Documents\441 Computer Graphics\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Alvee\Documents\GitHub\441-Computer-Graphics\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
