@@ -104,7 +104,7 @@ int main(void) {
 
     // create c
     Cylinder c(20, 1, .2, .4);
-    // Cone c(20, 1, .2, .4);
+    //Cone c(20, 1, .2, .4);
     // Sphere c(20, .5, 1, .2, .4);
     // Torus c(20, .75, .25, 1, .2, .4);
     //DiscoCube c;
@@ -185,9 +185,12 @@ int main(void) {
         glUniform4fv(loc, 1, lightPos.values);
         loc = glGetUniformLocation(shader.ID, "lightColor");
         glUniform4fv(loc, 1, lightColor.values);
-        loc = glGetUniformLocation(shader.ID, "ambientColor");
-        glUniform4fv(loc, 1, ambientColor.values);
-        Uniform::set(shader.ID, "camPos", eye);
+        loc = glGetUniformLocation(shader.ID, "ambient");
+        glUniform4fv(loc, 1, ambientColor.values); 
+        loc = glGetUniformLocation(shader.ID, "gazeDir");
+        glUniform4fv(loc, 1, (origin-eye).values);
+        loc = glGetUniformLocation(shader.ID, "specStrength");
+        glUniform1f(loc, 0.2f);
 
         // render the cube
         glBindVertexArray(VAO1);

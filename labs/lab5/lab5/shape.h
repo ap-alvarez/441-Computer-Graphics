@@ -94,30 +94,30 @@ public:
             double vip1_x = radius * cos(theta_ip1);
             double vip1_y = radius * sin(theta_ip1);
 
-            double theta_n = theta_i + (step_size / 2);
-            double vin_x = cos(theta_n);
-            double vin_y = sin(theta_n);
-
+            double vin_x = cos(theta_i);
+            double vin_y = sin(theta_i);
+            double vin_xp1 = cos(theta_ip1);
+            double vin_yp1 = sin(theta_ip1);
 
             // add triangle viL, viH, vip1L
             add_vertex(coords, vi_x, vi_y, -h, r, g, b, vin_x, vin_y, 0.0);
             add_vertex(coords, vi_x, vi_y, h, r, g, b, vin_x, vin_y, 0.0);
-            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_x, vin_y, 0.0);
+            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_xp1, vin_yp1, 0.0);
 
             // add triangle vip1L, viH, vip1H
-            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_x, vin_y, 0.0);
+            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_xp1, vin_yp1, 0.0);
             add_vertex(coords, vi_x, vi_y, h, r, g, b, vin_x, vin_y, 0.0);
-            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, vin_x, vin_y, 0.0);
+            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, vin_xp1, vin_yp1, 0.0);
 
             // add high triangle vi, vip1, 0
-            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, 0.0, 0.0, -1.0);
-            add_vertex(coords, vi_x, vi_y, h, r, g, b, 0.0, 0.0, -1.0);
-            add_vertex(coords, c_x, c_y, h, r, g, b, 0.0, 0.0, -1.0);
+            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, vin_xp1, vin_yp1, 1.0);
+            add_vertex(coords, vi_x, vi_y, h, r, g, b, vin_x, vin_y, 1.0);
+            add_vertex(coords, c_x, c_y, h, r, g, b, 0.0, 0.0, 1.0);
 
             // // add low triangle vi, vip1, 0
-            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, 0.0, 0.0, 1.0);
-            add_vertex(coords, c_x, c_y, -h, r, g, b, 0.0, 0.0, 1.0);
-            add_vertex(coords, vi_x, vi_y, -h, r, g, b, 0.0, 0.0, 1.0);
+            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_xp1, vin_yp1, -1.0);
+            add_vertex(coords, c_x, c_y, -h, r, g, b, 0.0, 0.0, -1.0);
+            add_vertex(coords, vi_x, vi_y, -h, r, g, b, vin_x, vin_y, -1.0);
         }
     }
 };

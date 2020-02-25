@@ -29,7 +29,7 @@ C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(36,
 C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(37,28): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(106,30): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(135,42): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(194,70): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\Source.cpp(197,70): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\shape.h(15,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab5\lab5\shape.h(103): message : see reference to function template instantiation 'void add_vertex<std::vector<float,std::allocator<float>>,double,float>(T &,const N &,const N &,const N &,const C &,const C &,const C &,const N &,const N &,const N &,bool)' being compiled
           with

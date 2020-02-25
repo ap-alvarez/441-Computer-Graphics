@@ -2,7 +2,7 @@
 
 layout (location = 0) in vec3 aPos;
 layout (location = 1) in vec3 aColor;
-layout (location = 2) in vec3 normal;
+layout (location = 2) in vec3 aNormal;
 
 uniform mat4 model;
 uniform mat3 normalModel;
@@ -15,5 +15,5 @@ out vec3 ourNormal;
 void main() {
     gl_Position = projection * camera * model * vec4(aPos, 1.0);
     ourColor = aColor;
-    ourNormal = normal * normalModel;
+    ourNormal = mat3(transpose(inverse(model))) * normalize(aNormal);
 }
