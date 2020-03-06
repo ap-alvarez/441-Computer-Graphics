@@ -1,0 +1,118 @@
+﻿  main.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(57,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(56,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(55,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(54,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(55,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(56,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(57,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(64,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(65,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(66,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(67,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(74,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(75,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(76,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(77,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(125,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(126,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(157,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(191,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(69,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(116,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(167,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(167,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(168,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(168,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(169,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(169,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(172,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(172,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(173,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(173,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(174,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(174,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(177,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(177,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(178,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(178,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(179,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(179,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(182,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(182,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(183,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(183,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(184,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(184,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(223,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(224,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(231,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(231,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(232,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(232,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(233,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(233,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(236,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(236,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(237,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(237,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(238,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(238,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(241,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(241,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(242,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(242,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(243,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(243,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(246,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(246,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(247,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(247,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(248,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(248,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\main.cpp(40,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\main.cpp(41,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\main.cpp(115,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(12,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(80): message : see reference to function template instantiation 'void add_vertex<std::vector<float,std::allocator<float>>,double,float>(T &,const N &,const N &,const N &,const C &,const C &,const C &,const Vector4 &,bool)' being compiled
+          with
+          [
+              T=std::vector<float,std::allocator<float>>,
+              N=double,
+              C=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(13,22): warning C4244: 'argument': conversion from 'const N' to 'const _Ty', possible loss of data
+          with
+          [
+              N=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(14,22): warning C4244: 'argument': conversion from 'const N' to 'const _Ty', possible loss of data
+          with
+          [
+              N=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\shape.h(15,22): warning C4244: 'argument': conversion from 'const N' to 'const _Ty', possible loss of data
+          with
+          [
+              N=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\model.h(146,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\lab6\main.cpp(111): message : see reference to function template instantiation 'Model::Model<std::vector<float,std::allocator<float>>,std::vector<unsigned int,std::allocator<unsigned int>>>(const Coords,const Triangles,const Shader &,const bool)' being compiled
+          with
+          [
+              Coords=std::vector<float,std::allocator<float>>,
+              Triangles=std::vector<unsigned int,std::allocator<unsigned int>>
+          ]
+  lab6.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab6\lab6\x64\Debug\lab6.exe
