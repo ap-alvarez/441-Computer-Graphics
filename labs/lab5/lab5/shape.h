@@ -110,14 +110,14 @@ public:
             add_vertex(coords, vip1_x, vip1_y, h, r, g, b, vin_xp1, vin_yp1, 0.0);
 
             // add high triangle vi, vip1, 0
-            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, vin_xp1, vin_yp1, 1.0);
-            add_vertex(coords, vi_x, vi_y, h, r, g, b, vin_x, vin_y, 1.0);
+            add_vertex(coords, vip1_x, vip1_y, h, r, g, b, 0.0, 0.0, 1.0);
+            add_vertex(coords, vi_x, vi_y, h, r, g, b, 0.0, 0.0, 1.0);
             add_vertex(coords, c_x, c_y, h, r, g, b, 0.0, 0.0, 1.0);
 
             // // add low triangle vi, vip1, 0
-            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_xp1, vin_yp1, -1.0);
+            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, 0.0, 0.0, -1.0);
             add_vertex(coords, c_x, c_y, -h, r, g, b, 0.0, 0.0, -1.0);
-            add_vertex(coords, vi_x, vi_y, -h, r, g, b, vin_x, vin_y, -1.0);
+            add_vertex(coords, vi_x, vi_y, -h, r, g, b, 0.0, 0.0, -1.0);
         }
     }
 };
@@ -149,14 +149,16 @@ public:
             Vector4 v2(-vi_x, -vi_y, 2*h);
             Vector4 normal = v1.cross(v2).normalized();
             
-            double vin_x = normal.x();
-            double vin_y = normal.y();
-            double vin_z = normal.z();
+            double vin_x = cos(theta_i);
+            double vin_y = sin(theta_i);
+            double vin_xp1 = cos(theta_ip1);
+            double vin_yp1 = sin(theta_ip1);
+
 
             // add triangle viL, viH, vip1L
-            add_vertex(coords, vi_x, vi_y, -h, r, g, b, vin_x, vin_y, vin_z);
-            add_vertex(coords, c_x, c_y, h, r, g, b, vin_x, vin_y, vin_z);
-            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_x, vin_y, vin_z);
+            add_vertex(coords, vi_x, vi_y, -h, r, g, b, vin_x, vin_y, double(normal.z()));
+            add_vertex(coords, c_x, c_y, h, r, g, b, double(normal.x()), double(normal.y()), 1.0);
+            add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, vin_xp1, vin_yp1, double(normal.z()));
 
             // // add low triangle vi, vip1, 0
             add_vertex(coords, vip1_x, vip1_y, -h, r, g, b, 0.0, 0.0, -1.0);

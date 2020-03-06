@@ -1,6 +1,7 @@
 #version 330 core
 in vec3 ourColor;
 in vec3 ourNormal;
+in vec3 ourPos;
 
 out vec4 fragColor;
 
@@ -11,7 +12,7 @@ uniform vec4 gazeDir;
 uniform float specStrength;
 
 void main() {
-    vec3 lightDir = normalize(lightPos.xyz);
+    vec3 lightDir = normalize(lightPos.xyz - ourPos);
     float diff = max(0.0, dot(ourNormal, lightDir));
     vec3 diffuse = diff * vec3(lightColor);
     vec3 diffColor = ourColor * (ambient.xyz + diffuse);
