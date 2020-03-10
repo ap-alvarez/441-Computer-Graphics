@@ -1,0 +1,80 @@
+﻿  main.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(57,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(56,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(55,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(54,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(55,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(56,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(57,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(64,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(65,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(66,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(67,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(74,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(75,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(76,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(77,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(125,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(126,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(157,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(191,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(141,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(141,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(142,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(142,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(143,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(143,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(144,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(144,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\main.cpp(41,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\main.cpp(42,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\main.cpp(167,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(16,23): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(25): message : see reference to function template instantiation 'void add_vertex<T>(T &,const Vertex &)' being compiled
+          with
+          [
+              T=std::vector<float,std::allocator<float>>
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(146): message : see reference to function template instantiation 'void add_triangle<std::vector<float,std::allocator<float>>>(T &,const Vertex &,const Vertex &,const Vertex &)' being compiled
+          with
+          [
+              T=std::vector<float,std::allocator<float>>
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(17,23): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(18,23): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(19,23): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\lab7\shape.h(20,23): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl processInput(class Matrix4 &,struct GLFWwindow *)" (?processInput@@YAXAAVMatrix4@@PAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "bool __cdecl isPressed(struct GLFWwindow *,int)" (?isPressed@@YA_NPAUGLFWwindow@@H@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab7\lab7\Debug\lab7.exe : fatal error LNK1120: 12 unresolved externals
