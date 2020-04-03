@@ -1,0 +1,22 @@
+﻿  player.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(57,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(56,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\vector4.h(55,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(54,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(55,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(56,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(57,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(64,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(65,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(66,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(67,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(74,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(75,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(76,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(77,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(125,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(126,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(157,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\new_include\csci441\matrix4.h(191,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\projects\Project1\Project1\player.cpp(22,1): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project1.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\projects\Project1\x64\Debug\Project1.exe
