@@ -44,6 +44,14 @@ public:
         return true;
     }
 
+    float operator*(const Vector4& v) const {
+        float t = 0;
+        for (int i = 0; i < 3; i++) {
+            t += values[i] * v.values[i];
+        }
+        return t;
+    }
+
     float x() const { return values[X]; }
     float y() const { return values[Y]; }
     float z() const { return values[Z]; }

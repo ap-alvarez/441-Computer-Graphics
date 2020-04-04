@@ -152,7 +152,9 @@
     <ClInclude Include="..\..\..\new_include\csci441\uniform.h" />
     <ClInclude Include="..\..\..\new_include\csci441\vector4.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="map.cpp" />
     <ClInclude Include="shape.h" />
+    <ClInclude Include="texture.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="frag.glsl" />
