@@ -145,6 +145,14 @@ public:
         values[idx(3,3)] = 0;
     }
 
+    void set_to_identity() {
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                values[idx(i, j)] = i == j;
+            }
+        }
+    }
+
     Matrix4 operator*(const Matrix4& m) const {
         Matrix4 ret;
         mult(ret.values, values, m.values);
@@ -192,14 +200,7 @@ private:
             }
         }
     }
-
-    void set_to_identity() {
-        for (int i = 0; i < 4; ++i) {
-            for (int j = 0; j < 4; ++j) {
-                values[idx(i,j)] = i==j;
-            }
-        }
-    }
+    
 };
 
 #endif
