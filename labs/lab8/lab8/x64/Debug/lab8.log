@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab8\lab8\main.cpp(56,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab8\lab8\main.cpp(57,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab8\lab8\main.cpp(99,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab8\lab8\main.cpp(100,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  lab8.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab8\x64\Debug\lab8.exe
