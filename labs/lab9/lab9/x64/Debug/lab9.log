@@ -1,0 +1,52 @@
+﻿  main.cpp
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\camera.h(45,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\camera.h(46,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\hit.h(36,26): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\light.h(94,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\renderer.h(15,24): warning C4244: 'return': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\renderer.h(26,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\renderer.h(41,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\renderer.h(85,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\renderer.h(86,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(57,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(59,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(60,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(62,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(63,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(65,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(67,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(68,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(71,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(72,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(84,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(86,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(87,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(90,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(91,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(137,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(139,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(140,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(143,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(144,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(146,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(148,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(149,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(152,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(153,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(165,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(167,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(168,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(171,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(172,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(238,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(251,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(252,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(253,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(254,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(283,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\lab9\main.cpp(346,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  lab9.vcxproj -> C:\Users\Tiny Rick\Documents\441 Computer Graphics\labs\lab9\x64\Debug\lab9.exe
